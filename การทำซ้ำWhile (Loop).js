@@ -6,7 +6,10 @@
 // continue คำสั่งนี้จะทำให้หยุดการทำงานแล้วย้อนกลัยไปเริ่มต้นการทำงานที่ต้นลูปใหม่
 
 let count = 1;
-while(count<=3){
-    console.log("Hi");
+while(count<=5){
+    console.log("ผลิตสินค้าชิ้นที่",count);
+    if(count==3){
+        break;
+    }
     count++;
-}
+}s
