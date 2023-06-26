@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page1</title>
+</head>
+
+<body onload="welcome()">
+    <div id="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, praesentium. Fugit harum vitae,
+        atque cupiditate impedit ipsum eos a cumque nemo. Sed, voluptatibus hic nemo doloribus quia harum vero est.
+    </div>
+    <label for="">ชื่อ</label>
+    <input type="text" placeholder="ป้อนชื่อของคุณ" onfocus="hightlight(this)" onblur="unhightlight(this)">
+    <textarea name="" id="" cols="30" rows="10" onfocus="hightlight(this)" onblur="unhightlight(this)"></textarea>
+    <br><br>
+    <section>
+        <label for="">เลือกเครื่องมือ</label>
+        <select name="" id="menu">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Bootstrap">Bootstrap</option>
+        </select>
+        <p id="display"></p>
+        <button id="btn">ยินดีต้อนรับ</button>
+    </section>
+    <a href="" onmouseover="hightlight(this)" onmouseout="unhightlight(this)">Menu 1</a>
+    <a href="">Menu 2</a>
+    <!-- <script src="/DOM Event.js"></script> -->
+    <script src="/EventListener.js"></script>
+</body>
+
+</html>

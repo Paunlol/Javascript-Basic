@@ -12,10 +12,10 @@ _name = "ฟอร์ด"; //กำหนดค่าลงในตัวแป
 let Name = "Javascript";
 let NAME = "ลาก่อน";
 let age = 20;
-console.log("before =",_name) //ก่อน
+console.log("before =", _name) //ก่อน
 _name = "ฟอร์ดใหม่" //เปลี่ยนตัวแปรใหม่เพราเป็น let ไม่ใช่ค่าคงที่
-console.log("after =",_name) //หลัง
+console.log("after =", _name) //หลัง
 console.log(NAME)
 
 const vat = 0.7; //กำหนดค่าคงที่ของvatเป็น 0.7 ไม่สามารถกำหนดใหม่ได้
-console.log("ค่าvat = ",vat)
+console.log("ค่าvat = ", vat)
